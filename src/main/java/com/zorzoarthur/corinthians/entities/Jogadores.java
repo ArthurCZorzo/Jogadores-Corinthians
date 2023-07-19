@@ -19,11 +19,11 @@ public class Jogadores {
     private String posicao;
     private Integer numero;
 
-    @Column(name = "data-contrato")
+    @Column(name = "data_contrato")
     private String dataContrato;
 
-    public Jogadores(){
-        
+    public Jogadores() {
+
     }
 
     public Jogadores(Long id, String nome, Integer idade, String posicao, Integer numero, String dataContrato) {
@@ -108,5 +108,4 @@ public class Jogadores {
         return true;
     }
 
-    
 }
